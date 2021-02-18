@@ -1,0 +1,29 @@
+{
+  "name": "DeFi Passport",
+  "version": "0.1.0",
+  "description": "",
+  "background": {
+    "service_worker": "sw.js"
+  },
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "images/ic-credible-16.png"
+  },
+  "permissions": [
+    "declarativeContent",
+    "clipboardWrite",
+    "clipboardRead",
+    "contextMenus",
+    "storage",
+    "*://*/*",
+    "webview",
+    "tabs"
+  ],
+  "icons": {
+    "16": "images/ic-credible-16.png",
+    "24": "images/ic-credible-24.png",
+    "48": "images/ic-credible-48.png"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "manifest_version": 2
+}
