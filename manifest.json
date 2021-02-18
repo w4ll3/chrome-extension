@@ -5,7 +5,7 @@
   "background": {
     "service_worker": "sw.js"
   },
-  "browser_action": {
+  "action": {
     "default_popup": "index.html",
     "default_icon": "images/ic-credible-16.png"
   },
@@ -24,6 +24,5 @@
     "24": "images/ic-credible-24.png",
     "48": "images/ic-credible-48.png"
   },
-  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
-  "manifest_version": 2
+  "manifest_version": 3
 }
