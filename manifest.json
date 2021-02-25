@@ -12,6 +12,9 @@
   "host_permissions": [
     "<all_urls>"
   ],
+  "externally_connectable": {
+    "matches": ["https://*.theosirian.com/*"]
+  },
   "permissions": [
     "declarativeContent",
     "clipboardWrite",
@@ -19,6 +22,25 @@
     "contextMenus",
     "storage",
     "tabs"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/*",
+        "didkit/*",
+        "icons/*",
+        "images/*",
+        "vendor/*",
+        "favicon.png",
+        "index.html",
+        "get.html",
+        "get.js",
+        "store.html",
+        "store.js",
+        "main.dart.js"
+      ],
+      "matches": []
+    }
   ],
   "icons": {
     "16": "images/ic-credible-16.png",
