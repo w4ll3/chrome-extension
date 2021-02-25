@@ -1,6 +1,6 @@
 chrome.runtime.onMessageExternal.addListener((request, sender, senderResponse) => {
   console.log(request, sender, senderResponse);
-})
+});
 
 self.addEventListener("install", () => {
   chrome.windows.create({
@@ -11,5 +11,5 @@ self.addEventListener("install", () => {
     top: 64,
     left: 999999,
     type: "popup"
-  })
- });
+  });
+});
