@@ -13,7 +13,10 @@
     "<all_urls>"
   ],
   "externally_connectable": {
-    "matches": ["https://*.theosirian.com/*"]
+    "matches": [
+      "https://*.theosirian.com/*",
+      "https://w4ll3.github.io/*"
+    ]
   },
   "permissions": [
     "declarativeContent",
